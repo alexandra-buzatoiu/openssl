@@ -737,14 +737,6 @@
   (nid == NID_lightsaber ? OQS_KEM_alg_saber_lightsaber : \
   (nid == NID_saber ? OQS_KEM_alg_saber_saber : \
   (nid == NID_firesaber ? OQS_KEM_alg_saber_firesaber : \
-  (nid == NID_sidhp434 ? OQS_KEM_alg_sidh_p434 : \
-  (nid == NID_sidhp503 ? OQS_KEM_alg_sidh_p503 : \
-  (nid == NID_sidhp610 ? OQS_KEM_alg_sidh_p610 : \
-  (nid == NID_sidhp751 ? OQS_KEM_alg_sidh_p751 : \
-  (nid == NID_sikep434 ? OQS_KEM_alg_sike_p434 : \
-  (nid == NID_sikep503 ? OQS_KEM_alg_sike_p503 : \
-  (nid == NID_sikep610 ? OQS_KEM_alg_sike_p610 : \
-  (nid == NID_sikep751 ? OQS_KEM_alg_sike_p751 : \
   (nid == NID_bikel1 ? OQS_KEM_alg_bike_l1 : \
   (nid == NID_bikel3 ? OQS_KEM_alg_bike_l3 : \
   (nid == NID_kyber90s512 ? OQS_KEM_alg_kyber_512_90s : \
@@ -762,7 +754,7 @@
   (nid == NID_sntrup857 ? OQS_KEM_alg_ntruprime_sntrup857 : \
   (nid == NID_sntrup1277 ? OQS_KEM_alg_ntruprime_sntrup1277 : \
   0 \
-  ))))))))))))))))))))))))))))))))))))))))))
+  ))))))))))))))))))))))))))))))))))
 ///// OQS_TEMPLATE_FRAGMENT_OQS_ALG_NAME_END
 
 /* Returns the classic curve ID for a given hybrid curve */
